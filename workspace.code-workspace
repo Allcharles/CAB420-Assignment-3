@@ -1,0 +1,25 @@
+{
+	"folders": [
+			{
+					"path": "."
+			}
+	],
+	"settings": {
+			"eslint.run": "onType",
+			"eslint.autoFixOnSave": true,
+			"eslint.workingDirectories": [
+					"content",
+					
+			],
+			// Enable per-language
+			"[python]": {
+					"editor.formatOnSave": true
+			}
+	},
+	"extensions": {
+			"recommendations": [
+					"EditorConfig.EditorConfig",
+					"dbaeumer.vscode-eslint"
+			]
+	}
+}
